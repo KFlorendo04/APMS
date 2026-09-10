@@ -1,0 +1,38 @@
+# Dependencies and build output
+node_modules/
+.venv/
+*.egg-info/
+dist/
+test-results/
+playwright-report/
+.expo/
+.expo/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# Generated source-analysis and verification intermediates
+tmp/
+docs/verification/screenshots/actual/
+docs/verification/screenshots/diff/
+
+# Operating-system/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
